@@ -1,0 +1,767 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'SF Pro Display';
+}
+
+.container {
+    width: 82%;
+    margin: auto;
+}
+
+.top-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 94px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 8px;
+}
+
+.navigation {
+    width: 595px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+
+}
+
+.navigation-items {
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+.mobile-button{
+    width: 38px;
+    cursor: pointer;
+    display: none;
+}
+
+.button {
+    background: #0077C0;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    padding: 15px 28px;
+    cursor: pointer;
+}
+
+/* top center */
+.center-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-block-rigth {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.center-block-left {
+    width: 55%;
+    max-width: 535px;
+}
+
+.center-block-left-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+    letter-spacing: -0.5px;
+    margin-bottom: 27px;
+}
+
+.center-block-left-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 386px;
+    margin-bottom: 32px;
+}
+
+
+
+.pic-1 {
+    position: absolute;
+}
+
+.pic-1 img {
+    max-width: 644px;
+}
+
+.pic-1 img {
+    height: 580px;
+}
+
+.partners {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 185px;
+    flex-wrap: wrap;
+}
+
+.partners-img {
+    max-height: 48px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+.feature {
+    background: #0077C0;
+    color: #fff;
+    padding: 80px 0 133px;
+}
+
+
+.feature-center-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    word-break: break-word;
+    margin-bottom: 75px;
+}
+
+.feature-center-top-paragraph {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.feature-center-top-title {
+    align-items: center;
+    font-size: 48px;
+    margin: 0;
+    max-width: 435px;
+    text-align: center;
+}
+
+.feature-items {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.feature-block {
+    width: 30%;
+    min-width: 215px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 100%;
+    width: 110px;
+    background-color: #C7EEFF;
+}
+
+.feature-block-img {
+    max-width: 108px;
+}
+
+.feature-block-title {
+    font-size: 24px;
+    color: #FAFAFA;
+    margin-top: 48px;
+}
+
+.feature-block-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    word-break: break-word;
+    margin-top: 16px;
+}
+
+.tutorial {
+    display: flex;
+}
+
+.tutorial-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 69px;
+    padding-bottom: 73px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    gap: 119px;
+}
+
+.tutorial-wireframes {
+    min-width: 451px;
+}
+
+.tutorial-wireframes img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.tutorial-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tutorial-heading {
+    width: 550px;
+    height: 260px;
+}
+
+.tutorial-title {
+    max-width: 545px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    letter-spacing: -0.5px;
+    margin: 0;
+    margin-bottom: 33px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.text-1 {
+    background-color: #C7EEFF;
+    padding: 10px 15px;
+    box-sizing: content-box;
+    border-radius: 100%;
+}
+
+.image-1 {
+    width: 40px;
+    height: 34px;
+}
+
+.row-paragraph {
+    color: black;
+    margin: 0;
+    margin-left: 16px;
+}
+
+.explore {
+    width: 100%;
+    background: #C7EEFF;
+    padding: 119px 0 47px;
+}
+
+.explore-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    margin-top: 61px;
+}
+
+.content-heading {
+    max-width: 550px;
+    color: black;
+    font-size: 48px;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+.content-paragraph {
+    width: 443px;
+    height: 75px;
+    color: black;
+}
+
+.portrait-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.portrait {
+    position: relative;
+    width: 474px;
+    height: 474px;
+    background-color: #0077C0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-radius: 100%;
+}
+
+.card-1 {
+    position: absolute;
+    width: 178px;
+    height: 149px;
+    bottom: 360px;
+    object-fit: contain;
+}
+
+.card-2 {
+    position: absolute;
+    right: 300px;
+    width: 178px;
+    height: 187px;
+    object-fit: contain;
+}
+
+
+.ellipse-2 {
+    width: 474px;
+    height: 65%;
+}
+
+.testimonal {
+    width: 100%;
+    background-color: #FAFAFA;
+    padding: 87px 0 112px;
+}
+
+.testimonal-container {
+    display: flex;
+    justify-content: center;
+    width: 82%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonal-content {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.testimonal-paragraph {
+    color: #0077C0;
+    margin-bottom: 16px;
+}
+
+.testimonal-heading {
+    color: black;
+    line-height: 50px;
+    font-size: 48px;
+    max-width: 545px;
+}
+
+.testimonal-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.testimonal-cards {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    background-color: #fff;
+    max-width: 356px;
+    min-width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.testimonal-card-1 {
+    width: 356px;
+}
+
+.testimonal-heading-1 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.reyting-stars {
+    margin-top: 8px;
+}
+
+.avatar-name {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.testimonal-pic-1 {
+    height: 48px;
+    width: 48px;
+    margin-right: 8px;
+}
+
+.testimonal-info {}
+
+.testimonal-cards-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonal-paragraph-1 {
+    margin: 0;
+    margin-top: 16px;
+}
+
+.testimonal-pic-2 {
+    width: 356px;
+    height: 328px;
+}
+
+.call-to-action {
+    width: 100%;
+    padding: 70px 0;
+
+}
+
+.call-to-action-container {
+    background-color: #0077C0;
+    height: 402px;
+}
+
+.container-pic {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.container-pic-image {
+    height: 100%;
+    display: flex;
+}
+
+.call-to-action-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.call-to-action-content-paragraph {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.call-to-action-content-heading {
+    color: white;
+    font-size: 35px;
+    width: 373px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.button-1 {
+    background: #fff;
+    color: #0071D9;
+}
+
+.footer-container {
+    background-color: #1D242B;
+    width: 100%;
+    padding: 60px 0;
+}
+
+
+.company-info {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wakanda {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.wakanda-logo {
+    width: 40px;
+    height: 26px;
+    object-fit: contain;
+}
+
+.wakanda-heading {
+    color: white;
+}
+
+.social-icons-links {
+    width: 17px;
+    height: 17px;
+    padding: 7px;
+    border-radius: 100%;
+    background-color: #343A40;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+    margin: 40px 0;
+}
+
+.social-icons-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.wakanda-info {
+    color: white;
+}
+
+.links {
+    display: flex;
+}
+
+.col-1 {
+    color: white;
+    width: 160px;
+}
+
+.col-1-links {
+    list-style-type: none;
+}
+
+.link-items-1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.link-items {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.col-3 {
+    min-width: 251px;
+}
+
+.subscribe {
+    color: white;
+    font-weight: 700px;
+    cursor: pointer;
+}
+
+.mail {
+    Width: 255px;
+    Height: 40px;
+    background: #3E444A;
+    border-radius: 8px;
+    border: none;
+    padding-left: 12px;
+}
+
+.link-items-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.telegram {
+    position: absolute;
+    right: 8px;
+    width: 22px;
+    height: 22px;
+}
+
+.footer-container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mail[type="email"]::-webkit-input-placeholder {
+    color: #D9DBE1;
+}
+
+.mail[type="email"]::-moz-placeholder {
+    color: #D9DBE1;
+}
+
+/*-------------- media --------------*/
+@media screen and (max-width:1360px) {
+    .tutorial-container {
+        justify-content: center;
+    }
+
+    .testimonal-group {
+        justify-content: space-around;
+    }
+
+    .testimonal-clumn {
+        display: flex;
+        gap: 20px;
+    }
+
+    .testimonal-cards {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .explore-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .center-block {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .center-block-left {
+        width: 90%;
+        max-width: inherit;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navigation {
+        display: none;
+    }
+    .mobile-button{
+        display: block;
+    }
+
+    .tutorial-title {
+        max-width: 545px;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .footer-container-wrapper {
+        justify-content: space-around;
+    }
+
+    .links {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .company-info {
+        margin-bottom: 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .wakanda {
+        width: auto;
+    }
+
+    .col-1-links {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:845px) {
+    .feature-items {
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .links {
+        gap: 30px;
+    }
+
+    .col-3 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .partners {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .testimonal-clumn {
+        flex-direction: column;
+    }
+
+    .tutorial-wireframes {
+        min-width: auto;
+    }
+
+    .portrait {
+        width: 325px;
+        height: 330px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .pic-1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pic-1>img {
+        width: 60%;
+        height: auto;
+    }
+
+    .pic-2 {
+        width: 100%;
+    }
+
+    .pic-2>img {
+        width: 100%;
+        height: auto;
+    }
+}
